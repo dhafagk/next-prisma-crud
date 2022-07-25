@@ -3,6 +3,7 @@ CREATE TABLE "Home" (
     "id" TEXT NOT NULL,
     "image" TEXT,
     "title" TEXT NOT NULL,
+    "slug" TEXT NOT NULL,
     "description" TEXT NOT NULL,
     "price" DOUBLE PRECISION NOT NULL,
     "guests" INTEGER NOT NULL,

@@ -15,6 +15,7 @@ model Home {
   id          String   @id @default(cuid())
   image       String?
   title       String
+  slug        String
   description String
   price       Float
   guests      Int
